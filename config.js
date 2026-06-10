@@ -19,8 +19,8 @@ Script **Autoresbot** resmi menjadi **Open Source** dan dapat digunakan secara g
 import moment from 'moment-timezone';
 
 const CONNECTION = 'pairing'; // qr atau pairing
-const OWNER_NAME = 'Autoresbot';
-const NOMOR_BOT = '628xx'; // 628xx nomor wa - 6285124002201
+const OWNER_NAME = 'yummy';
+const NOMOR_BOT = '13512344869'; // 628xx nomor wa - 6285124002201
 const DESTINATION = 'group'; // group , private, both
 const APIKEY = ''; // apikey dari autoresbot.com (paket apikey)
 const RATE_LIMIT = 3000; // 3 detik/chat
@@ -31,12 +31,12 @@ const VERSION = global.version; // don't edit
 const EMAIL = 'autoresbot@gmail.com';
 const REGION = 'Indonesia';
 const WEBSITE = 'autoresbot.com';
-const DATA_OWNER = ['69243815079978']; // cara ambil owner https://youtu.be/qrRXPCSFvRo?si=KOWdFhrScHN7Ugd4
+const DATA_OWNER = ['6285236327586']; // cara ambil owner https://youtu.be/qrRXPCSFvRo?si=KOWdFhrScHN7Ugd4
 
 // Konfiqurasi Chat
 const ANTI_CALL = false; // jika true (setiap yang nelpon pribadi akan di block)
-const AUTO_READ = false; // jika true (setiap chat akan di baca/centang 2 biru)
-const AUTO_BACKUP = false; // jika true (setiap restart server, data backup di kirimkan ke wa owner);
+const AUTO_READ = true; // jika true (setiap chat akan di baca/centang 2 biru)
+const AUTO_BACKUP = true; // jika true (setiap restart server, data backup di kirimkan ke wa owner);
 const MIDNIGHT_RESTART = false; // Restart setiap jam 12 malam
 const PRESENCE_UPDATE = ''; // unavailable, available, composing, recording, paused
 const TYPE_WELCOME = '1'; // 1, 2, 3, 4, 5, 6 text dan random
